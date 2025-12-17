@@ -1,0 +1,15 @@
+{
+  "@@locale": "en",
+  "appTitle": "Recruitment Task",
+  "submit": "Submit",
+  "result": "Result",
+  "resultMessage": "The outlier number is {number}",
+  "@resultMessage": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "resultMessagePrefix": "The outlier number is"
+}

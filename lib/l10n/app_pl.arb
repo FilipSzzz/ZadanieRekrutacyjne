@@ -1,0 +1,15 @@
+{
+  "@@locale": "pl",
+  "appTitle": "Zadanie rekrutacyjne",
+  "submit": "Zatwierdź",
+  "result": "Wynik",
+  "resultMessage": "Odstająca liczba to {number}",
+  "@resultMessage": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "resultMessagePrefix": "Odstająca liczba to"
+}
