@@ -11,5 +11,15 @@
       }
     }
   },
-  "resultMessagePrefix": "The outlier number is"
+  "resultMessagePrefix": "The outlier number is",
+  "noDataError": "No data provided.",
+  "invalidNumberError": "Invalid number: \"{number}\"",
+  "@invalidNumberError": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "noOutlierError": "No outlier number found."
 }

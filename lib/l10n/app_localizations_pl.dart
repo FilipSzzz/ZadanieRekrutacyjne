@@ -24,4 +24,15 @@ class AppLocalizationsPl extends AppLocalizations {
 
   @override
   String get resultMessagePrefix => 'Odstająca liczba to';
+
+  @override
+  String get noDataError => 'Brak danych.';
+
+  @override
+  String invalidNumberError(String number) {
+    return 'Niepoprawna liczba: \"$number\"';
+  }
+
+  @override
+  String get noOutlierError => 'Brak odstającej liczby.';
 }

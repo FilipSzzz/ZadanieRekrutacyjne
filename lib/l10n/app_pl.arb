@@ -11,5 +11,15 @@
       }
     }
   },
-  "resultMessagePrefix": "Odstająca liczba to"
+  "resultMessagePrefix": "Odstająca liczba to",
+  "noDataError": "Brak danych.",
+  "invalidNumberError": "Niepoprawna liczba: \"{number}\"",
+  "@invalidNumberError": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "noOutlierError": "Brak odstającej liczby."
 }

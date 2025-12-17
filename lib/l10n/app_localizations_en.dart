@@ -24,4 +24,15 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get resultMessagePrefix => 'The outlier number is';
+
+  @override
+  String get noDataError => 'No data provided.';
+
+  @override
+  String invalidNumberError(String number) {
+    return 'Invalid number: \"$number\"';
+  }
+
+  @override
+  String get noOutlierError => 'No outlier number found.';
 }

@@ -124,6 +124,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'The outlier number is'**
   String get resultMessagePrefix;
+
+  /// No description provided for @noDataError.
+  ///
+  /// In en, this message translates to:
+  /// **'No data provided.'**
+  String get noDataError;
+
+  /// No description provided for @invalidNumberError.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid number: \"{number}\"'**
+  String invalidNumberError(String number);
+
+  /// No description provided for @noOutlierError.
+  ///
+  /// In en, this message translates to:
+  /// **'No outlier number found.'**
+  String get noOutlierError;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

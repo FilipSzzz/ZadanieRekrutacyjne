@@ -26,8 +26,8 @@ class InputPageState extends State<InputPage> {
 
   void _processInput() {
     setState(() => errorMessage = null);
-
-    final result = numberService.findOutlier(controller.text.trim());
+    final l10n = AppLocalizations.of(context)!;
+    final result = numberService.findOutlier(controller.text.trim(), l10n);
 
     switch (result) {
       case OutlierSuccess(outlier: final outlier):
